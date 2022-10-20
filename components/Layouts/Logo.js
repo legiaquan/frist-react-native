@@ -14,7 +14,7 @@ const Logo = props => {
       }}>
       <Text style={styles.text_color}>Welcome</Text>
       <Image
-        source={require('../assets/icons/organic.png')}
+        source={require('~/assets/icons/organic.png')}
         style={{
           width: 100,
           height: 100,

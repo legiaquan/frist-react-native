@@ -16,7 +16,7 @@ import {
   Image,
   TextInput,
 } from 'react-native';
-import HelloWorldApp from './components/HelloWorld';
+import HelloWorld from '~/components/HelloWorld';
 
 const logo = {
   uri: 'https://reactnative.dev/img/tiny_logo.png',
@@ -28,7 +28,7 @@ const App: () => Node = () => {
 
   return (
     <ScrollView>
-      <HelloWorldApp message={"Hello world!"} />
+      <HelloWorld message={"Hello world!"} />
       <Text>Some text</Text>
       <View>
         <Text>Some more text</Text>

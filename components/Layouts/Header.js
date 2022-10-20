@@ -21,7 +21,7 @@ const Header = props => {
           marginEnd: 10,
         }}>
         <Image
-          source={require('../assets/icons/fire.png')}
+          source={require('~/assets/icons/fire.png')}
           style={{
             width: 30,
             height: 30,
@@ -34,7 +34,7 @@ const Header = props => {
           }}
         />
         <Image
-          source={require('../assets/icons/question.png')}
+          source={require('~/assets/icons/question.png')}
           style={{
             width: 20,
             height: 20,

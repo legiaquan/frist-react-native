@@ -5,10 +5,10 @@ import {
   ImageBackground,
 } from 'react-native';
 
-import Header from '../components/Header'
-import Logo from '../components/Logo'
-import Body from '../components/Body'
-import Footer from '../components/Footer'
+import Header from '~/components/Layouts/Header'
+import Logo from '~/components/Layouts/Logo'
+import Body from '~/components/Layouts/Body'
+import Footer from '~/components/Layouts/Footer'
 
 const WelcomeScreen = props => {
   const heightContainer = {
@@ -23,7 +23,7 @@ const WelcomeScreen = props => {
 
   return (
     <ImageBackground
-      source={require('../assets/images/background.png')}
+      source={require('~/assets/images/background.png')}
       resizeModel="cover"
       style={{
         flex: 1,
